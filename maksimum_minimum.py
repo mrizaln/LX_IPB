@@ -1,3 +1,16 @@
+'''
+      MAKSIMUM DAN MINIMUM 3 BILANGAN (Metode Manual: menggunakan if-else)
+
+Diberikan tiga buah bilangan x,y, dan z yang masing-masing merupakan bilangan bulat. Cetaklah nilai terbesar dan terkecil dari ketiga bilangan tersebut dengan tidak diakhiri newline.
+ 
+> Format Masukan:
+Satu baris berisi 3 bilangan bulat yang dipisahkan oleh spasi
+
+> Format Keluaran:
+Satu baris keluaran yang berisi bilangan maksimal dan minimal yang dipisahkan spasi.
+
+'''
+
 x, y, z = map(int, input().split())
 
 if x > y and x > z:
@@ -47,4 +60,4 @@ else:
         besar = x
         kecil = x
 
-print(besar, kecil, sep = ' ', end = ' ')
+print("%d %d" % (besar, kecil), end = '')
