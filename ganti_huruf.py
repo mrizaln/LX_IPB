@@ -1,3 +1,22 @@
+'''
+          GANTI HURUF
+
+Buatlah sebuah program python untuk mengganti setiap huruf yang sama dengan huruf pertama dari sebuah kata tetapi tidak mengganti huruf pertama itu sendiri, dengan karakter underscore (_).
+
+> Format Masukan:
+Sebuah kata
+
+> Format Keluaran:
+Kata yang telah berganti huruf yang sama dengan huruf awal string tersebut dengan karakter underscore (_). Baris keluaran diakhiri dengan newline.
+
+> Contoh Masukan:
+ubuntu
+
+> Contoh Keluaran:
+ub_nt_
+
+'''
+
 kata = input()
 hurf = list(kata)
 
